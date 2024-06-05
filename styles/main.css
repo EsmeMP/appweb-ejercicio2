@@ -206,6 +206,21 @@ body{
     width: 50vb;
 }
 
+.blog-button {
+    border: 1px solid var(--color-primary);
+    background-color: rgb(122, 87, 225);
+    padding: 10px 15px;
+    font-size: 12px;
+}
+
+.blog-button:hover {
+    border: 1px solid var(--color-light);
+    color: var(--color-background);
+    background-color: rgb(35, 8, 110);
+}
+
+
+
 
 
 /* Blanco puro (#FFFFFF)
