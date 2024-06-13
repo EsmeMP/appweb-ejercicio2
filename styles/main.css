@@ -385,6 +385,19 @@ footer p {
     color: #450593;
     font-family:Playpen Sans, Sedan SC ;
 }
+
+form{
+    padding: 10px;
+    font-family:Playpen Sans, Sedan SC ;
+    background-color: rgb(33, 0, 78);
+    color: white;
+}
+
+label{
+    font-weight: bold;
+}
+
+
 /* Blanco puro (#FFFFFF)
 Negro (#000000)
 Gris oscuro (#333333)
