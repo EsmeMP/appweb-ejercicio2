@@ -192,7 +192,7 @@ body{
 
 .blog-news-img-container{
     grid-column: 1;
-    padding: 90px 0;
+    /* padding: 90px 0; */
 }
 
 .blog-news-info-container{
@@ -258,29 +258,81 @@ footer p {
     font-weight: var(--font-medium);
 }
 
-
-.aboutme img {
-    border-radius: 30px;
-    width: 60px;
+.circular-img-container {
+    width: 200px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.titulo-abm{
+/* .titulo-abm{
     text-align: center;
     font-family:Playpen Sans, Sedan SC ;
     font-size: 20px;
+} */
+
+.blog-container{
+    padding-left: 60px;
 }
 
+.blog-title{
+    text-align: center;
+    font-size: 30px;
+    font-family:Playpen Sans, Sedan SC ;
+}
+
+.blog-title hr{
+    width: 70%;
+    border: 0;
+    border-top:4px dotted  rgb(134, 41, 216);
+}    
+
+.blog-container .blog-post{
+    display: inline-block;
+    padding: 10px;
+    max-width: 30%;
+    margin-bottom: 50px;
+}
+
+.blog-container .blog-post p{
+    font-family:Playpen Sans, Sedan SC ;
+    margin-bottom: 35px;
+}
+
+.blog-container .blog-post p:nth-child(1){
+    font-weight: bold;
+    color: #1b003c;
+    font-size: larger;
+    text-align: center;
+}
+.blog-container .blog-post p:nth-child(2){
+    background-color: #ba9def;
+    padding: 40px 20px;
+    text-align: justify;
+    border-radius: 20px;
+}
 
 
 .footer-aboutme{
     width: 100%;
     height: 400px;
     background-color: #1b003c;
+    padding: 20px;
 }
 
 .div-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.footer-bloque{
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
 }
 
 .div-container p{
@@ -288,12 +340,26 @@ footer p {
 }
 
 .div-footer {
-    width: 300px;
-    display: block;
+    flex: 1;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer-aboutme{
     text-align: center;
+}
+
+.div-container img{
+    width: 70px;
+    height: 70px;
+}
+
+.footer-aboutme hr {
+    width: 70%;
+    border: 0;
+    border-top:1px solid  rgb(228, 209, 244);
 }
 
 /* Blanco puro (#FFFFFF)
