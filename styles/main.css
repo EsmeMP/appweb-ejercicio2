@@ -20,6 +20,10 @@ body{
     bottom: 0;
 }
 
+.index {
+    position: fixed;
+}
+
 a{
     text-decoration: none;
     color: var(--color-light);
@@ -319,7 +323,7 @@ footer p {
 .footer-aboutme{
     width: 100%;
     height: 400px;
-    background-color: #1b003c;
+    background-color: var(--color-primary);
     padding: 20px;
 }
 
@@ -362,6 +366,25 @@ footer p {
     border-top:1px solid  rgb(228, 209, 244);
 }
 
+.footer-aboutme :nth-child(1){
+    color: #1f0334;
+    font-size: 20px;
+}
+
+.footer-aboutme :nth-child(2){
+    text-align: justify;
+    font-size: 15px;
+}
+
+.nombre {
+    text-align: center;
+    padding:0 600px;
+}
+
+.titlea {
+    color: #450593;
+    font-family:Playpen Sans, Sedan SC ;
+}
 /* Blanco puro (#FFFFFF)
 Negro (#000000)
 Gris oscuro (#333333)
