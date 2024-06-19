@@ -57,9 +57,52 @@
                         <option value="gafas">Gafas de realidad aumentada</option>
                     </datalist>
                 <br><br>
+                <!-- botones de opcion o radio button -->
+                 <label for="gusto"> ¿Te gusta este blog?</label> <br> <!-- deben tener el mismo name-->
+                <input type="radio" name="gusto" id="si" value="Si" checked>
+                <label for="si">Si</label>
+                <br>
+                <input type="radio" name="gusto" id="no" value="No">
+                <label for="no">No</label>
+                <br>
+                <input type="radio" name="gusto" id="nose" value="Nose">
+                <label for="no">No se</label>
+                <br><br>
+                 <!-- Casillas de verificacion o check box -->
+                <label for="lenguajes">Seleccionas tus lenguajes favoritos</label>
+                <br>
+                <input type="checkbox" id="leng1" value="Java">
+                <label for="leng1">Java</label> <br>
+                <input type="checkbox" id="leng2" value="Python">
+                <label for="leng2">Python</label> <br>
+                <input type="checkbox" id="leng3" value="c++">
+                <label for="leng3">c++</label> <br>
+                <input type="checkbox" id="leng4" value="JavaScript">
+                <label for="leng4">JavaScript</label> <br>
+                <br><br>
+                <label for="calendario">Selecciona una fecha</label>
+                <input type="datetime-local" name="calendario" id="calendario">
+                <br><br>
+                <!-- Otro ejemplo de Calendario -->
+                <label for="hora">Hora:</label>
+                <input type="time" name="hora" id="hora">
+                <br>
+                <!-- Calendario para Dia -->
+                <label for="dia">Fecha</label>
+                <input type="date" name="dia" id="dia">
+                <br>
+                <!-- Calendario para Semana -->
+                <label for="semana">Semana</label>
+                <input type="week" name="semana" id="semana">
+                <br>
+                <!-- Calendario para Mes -->
+                <label for="month">Mes</label>
+                <input type="month" name="mes" id="mes">
+                <br><br>
                 <label for="mensaje">Escribe un texto</label>
                 <textarea name="mensaje" id="mensaje"></textarea>
-                <br>
+                <br><br>
+                <!-- Numeros -->
                 <button class="blog-button" type="submit">
                     Enviar
                 </button>
